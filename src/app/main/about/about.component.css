@@ -1,0 +1,8 @@
+.row {
+    margin: 0 15px;
+}
+
+.bg-dark .card-title.text-light,
+.bg-dark .card-text.text-light {
+    color: white;
+}

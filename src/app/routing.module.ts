@@ -1,11 +1,18 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-// const routes:Routes = [
-// 	{
-//     path: "",
-//     component: AboutComponent,
-// 	},
+import { AboutComponent } from './main/about/about.component';
+
+const routes:Routes = [
+	{
+		path: "",
+		redirectTo: "about",
+		pathMatch: "full"
+  },
+  {
+		path: "about",
+    component: AboutComponent,
+  },
 // 	{
 //     path: "resume",
 //     component: ResumeComponent,
@@ -36,7 +43,7 @@ import { RouterModule, Routes } from '@angular/router';
 //     component: ProjectComponent,
 //     pathMatch: "full"
 // 	}
-// ];
+];
 
-// export const routingModule:ModuleWithProviders = 
-// 			RouterModule.forRoot(routes);
+export const routingModule:ModuleWithProviders = 
+			RouterModule.forRoot(routes);
