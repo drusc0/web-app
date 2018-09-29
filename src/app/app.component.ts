@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'personal-web';
+
+  notificationMessage:string = null;
+  showNotification:boolean = false;
+
+  constructor() {}
+
 }
