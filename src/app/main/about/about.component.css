@@ -6,3 +6,7 @@
 .bg-dark .card-text.text-light {
     color: white;
 }
+
+.img-grayscale {
+    filter: grayscale(100%);
+}
