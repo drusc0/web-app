@@ -1,17 +1,17 @@
 <ngb-carousel *ngIf="images">
   <ng-template ngbSlide>
-    <img [src]="images[0]" alt="Random first slide">
+    <img class="img-grayscale" [src]="images[0]" alt="Random first slide">
     <div class="carousel-caption">
       <h3>This Site!!</h3>
       <p>This site has been made using Angular 6 and Bootstrap 4. It is a neat implementation using some fun random images and my own skills.</p>
     </div>
   </ng-template>
   <ng-template ngbSlide>
-    <img [src]="images[1]" alt="Random second slide">
-    <div class="carousel-caption">
+    <img class="img-grayscale" [src]="images[1]" alt="Random second slide">
+    <a href="https://the-noos.firebaseapp.com"><div class="carousel-caption">
       <h3>The Noos</h3>
       <p>It is Angular 6+ app that uses www.newsapi.org to extract news sources. It is a work in progress, but you can go ahead and use it checkout the top 20 news of the day. You can also look for a particular source and checkout the top 20 news for that source.</p>
-    </div>
+    </div></a>
   </ng-template>
 </ngb-carousel>
 <hr>

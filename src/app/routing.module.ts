@@ -2,6 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AboutComponent } from './main/about/about.component';
+import { ContactComponent } from './main/contact/contact.component';
 
 const routes:Routes = [
 	{
@@ -28,11 +29,11 @@ const routes:Routes = [
 //     component: ActivityComponent,
 //     pathMatch: "full"
 // 	},
-// 	{
-//     path: "contact",
-//     component: ContactComponent,
-//     pathMatch: "full"
-// 	},
+	{
+    path: "contact",
+    component: ContactComponent,
+    pathMatch: "full"
+	},
 // 	{
 //     path: "projects",
 //     component: ProjectsComponent,

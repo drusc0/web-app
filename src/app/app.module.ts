@@ -8,6 +8,7 @@ import { routingModule } from './routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './main/about/about.component';
+import { ContactComponent } from './main/contact/contact.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { AboutComponent } from './main/about/about.component';
     NavbarComponent,
     FooterComponent,
     AboutComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
