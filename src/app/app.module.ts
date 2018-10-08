@@ -9,6 +9,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './main/about/about.component';
 import { ContactComponent } from './main/contact/contact.component';
+import { ProjectsComponent } from './main/projects/projects.component';
+import { ProjectComponent } from './main/project/project.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { ContactComponent } from './main/contact/contact.component';
     FooterComponent,
     AboutComponent,
     ContactComponent,
+    ProjectsComponent,
+    ProjectComponent,
   ],
   imports: [
     BrowserModule,
