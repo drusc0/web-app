@@ -3,17 +3,19 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AboutComponent } from './main/about/about.component';
 import { ContactComponent } from './main/contact/contact.component';
+import { ProjectsComponent } from './main/projects/projects.component';
+import { ProjectComponent } from './main/project/project.component';
 
 const routes:Routes = [
 	{
 		path: "",
 		redirectTo: "about",
 		pathMatch: "full"
-  },
-  {
+  	},
+  	{
 		path: "about",
-    component: AboutComponent,
-  },
+    	component: AboutComponent,
+  	},
 // 	{
 //     path: "resume",
 //     component: ResumeComponent,
@@ -30,20 +32,20 @@ const routes:Routes = [
 //     pathMatch: "full"
 // 	},
 	{
-    path: "contact",
-    component: ContactComponent,
-    pathMatch: "full"
+		path: "contact",
+		component: ContactComponent,
+		pathMatch: "full"
 	},
-// 	{
-//     path: "projects",
-//     component: ProjectsComponent,
-//     pathMatch: "full"
-// 	},
-// 	{
-//     path: "project/:id",
-//     component: ProjectComponent,
-//     pathMatch: "full"
-// 	}
+	{
+		path: "projects",
+		component: ProjectsComponent,
+		pathMatch: "full"
+	},
+	{
+		path: "project/:id",
+		component: ProjectComponent,
+		pathMatch: "full"
+	}
 ];
 
 export const routingModule:ModuleWithProviders = 
