@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './main/about/about.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { ProjectsComponent } from './main/projects/projects.component';
+import { ResumeComponent } from './main/resume/resume.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ProjectsComponent } from './main/projects/projects.component';
     AboutComponent,
     ContactComponent,
     ProjectsComponent,
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,
