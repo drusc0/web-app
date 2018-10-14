@@ -32,3 +32,42 @@
     color: #0e0b0bd8;
     font-size: 1.2em;
 }
+
+hr {
+    border-top: 3px solid #fff;
+}
+
+.resume-entry {
+    margin: 0 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.resume-entry .title::before {
+    content: "#";
+    margin-right: 5px;
+}
+
+.resume-entry .title {
+    color: #fff;
+    font-size: 1.2em;    
+}
+
+.resume-entry .text {
+    color: #3d3d3d;
+    font-size: 0.9em;
+}
+
+.resume-entry .resume-experience::before {
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 25px;
+    top: 0;
+    content: "";
+    display: block;
+    background: #3d3d3d;
+}
+.resume-entry .resume-experience {
+
+}
