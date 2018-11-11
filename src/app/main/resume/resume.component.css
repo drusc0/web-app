@@ -91,7 +91,6 @@ hr {
     padding: 1.3rem;
 }
 
-
 .contact-box h3::before {
     content: '#';
     color: #fff;
@@ -152,6 +151,53 @@ a {
 }
 .pull-right {
     float: right !important;
+}
+
+/* contact box info */
+.skills-box {
+    margin-bottom: 20px;
+    padding: 1.3rem;
+}
+
+.skills-box h3::before {
+    content: '#';
+    color: #fff;
+    margin-right: 5px;
+}
+.skills-box h3 {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.skills-box .skills-item {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.skills-item .title {
+    padding: 10px;
+    color: #ddd;
+    font-size: .9em;
+    width: 30%;
+    margin-right: 5px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    opacity: 0.8;
+}
+.skills-item:last-child .title {
+    border-bottom: none;
+}
+
+.skills-item h4 {
+    color: #eee;
+    font-size: 1em;
+}
+.skills-item .skills-list {
+    width: 65%;
+    font-size: .7em;
+    color: #ddd;
+    opacity: .7;
 }
 
 /* clearfix */
