@@ -84,6 +84,34 @@ hr {
     font-weight: 700;
     display: inline-block;
 }
+/* summary */
+.summary-box {
+    margin-bottom: 20px;
+    padding: 1.3rem;
+}
+
+.summary-box h3::before {
+    content: '#';
+    color: #fff;
+    margin-right: 5px;
+}
+.summary-box h3 {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.summary-box .summary-text {
+    font-size: .9em;
+    font-weight: 500;
+    color: #ddd;
+    opacity: 0.9;
+}
+
+/* experience */
+.experience-box {
+    margin-bottom: 20px;
+    padding: 1.3rem;
+}
 
 /* contact box info */
 .contact-box {
@@ -202,6 +230,15 @@ a {
 
 .skills-list .badge {
     margin: 2px 2px;
+}
+
+.table th {
+    color: #ddd;
+    font-size: .9em;
+}
+
+.checked {
+    color: orange;
 }
 
 /* clearfix */
