@@ -36,53 +36,49 @@
 hr {
     border-top: 3px solid #fff;
 }
-
-.resume-entry {
-    margin: 0 15px;
+/* experience  */
+.experience-box {
+    margin-bottom: 20px;
     padding: 1.3rem;
-    width: 100%;
-    height: 100%;
+    color: #ddd;
 }
 
-.resume-entry .title::before {
-    content: "#";
+.experience-box h3::before {
+    content: '#';
+    color: #fff;
     margin-right: 5px;
 }
-
-.resume-entry .title {
+.experience-box h3 {
     color: #fff;
-    font-size: 1.2em;    
+    font-size: 1.2em;
 }
 
-.resume-entry .text {
-    color: #dddddd;
-    font-size: 0.9em;
+.experience-box .experience-item {
+    margin-bottom: 15px;
 }
 
-.resume-entry .resume-experience::before {
-    width: 5px;
-    height: 100%;
-    position: absolute;
-    left: 25px;
-    top: 0;
-    content: "";
-    display: block;
-    background: #3d3d3d;
-}
-.resume-entry .resume-experience {
-    margin-top: 20px;
-    position: relative;
-    padding: 1em 0;
-    list-style: none;
-}
-
-.resume-entry .resume-experience .time {
-    width: 10%;
-    background: #d3d3d3;
-    padding: 10px;
-    font-size: 1.5em;
+.experience-item .where {
+    font-size: .9em;
     font-weight: 700;
-    display: inline-block;
+    color: #ddd;
+    opacity: 0.9;
+}
+.experience-item .year {
+    font-size: .9em;
+    color: #ddd;
+    opacity: 0.7;
+}
+.experience-item .profession {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.experience-item .description {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+.experience-item .list-center {
+    padding: 0;
+    list-style-position: inside;
 }
 /* summary */
 .summary-box {
