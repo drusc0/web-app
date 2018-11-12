@@ -200,6 +200,10 @@ a {
     opacity: .7;
 }
 
+.skills-list .badge {
+    margin: 2px 2px;
+}
+
 /* clearfix */
 .clearfix {
     overflow: auto;
