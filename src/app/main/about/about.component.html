@@ -1,6 +1,6 @@
 <ngb-carousel *ngIf="images">
   <ng-template ngbSlide>
-    <img class="img-grayscale" [src]="images[0]" alt="Random first slide">
+    <img [src]="images[0]" alt="Random first slide">
     <div class="carousel-caption">
       <h3>This Site!!</h3>
       <p>This site has been made using Angular 6 and Bootstrap 4. It is a neat implementation using some fun random images and my own skills.</p>
@@ -15,8 +15,28 @@
   </ng-template>
 </ngb-carousel>
 <hr>
+
 <!-- About information -->
 <div class="row">
+  <div class="col-6">
+    <h2>Who is Andrés?</h2> 
+    <p>2005: Moved to the suburbs of New York, in Long Island and found an interest in computing.</p>
+    <p>2008: Graduated from Sachem North High School, and started the journey into CS.</p>
+    <p>2011: Graduated from Suffolk Community College with an A.S. in CS.</p>
+    <p>2012: Got an internship in Brazil as an Intern Developer for tax start-up, MWorks.</p>
+    <p>2014: Graduated from George Mason University with a B.S. in CS.</p>
+    <p>2014: Recipient of GEM fellowship to continue grad school in Indiana University, and intern at Fermilab.</p>
+    <p>2015: Graduated from Indiana University with a M.S. in CS.</p>
+    <p>2016: Started professional career as a Design Test Engineer at Intel PSG (formerly known as Altera).</p>
+    <p>2019: Switched career path to Software Engineering in Alexa Shopping.</p>
+    <p>Future: Awaiting to see what the future has in store for me. I enjoy learning new tech and disciplines, so I usually take online courses to feed my curiosity. I read books and articles tech-related to keep to date in technology, and alway open to new suggestions. If you want to learn more, click here to contact me.</p>
+  </div>
+  <div class="col-6">
+    <img src="../../../assets/cartoon-me-transparent.png">
+  </div> 
+</div>
+
+<!-- <div class="row">
   <div class="col-4">
     <img src="../../../assets/hoosiers.png">
   </div>
@@ -53,4 +73,4 @@
     </p>
   </div>
 </div>
-<hr>
+<hr> -->
