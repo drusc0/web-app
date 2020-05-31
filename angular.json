@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "personal-web"
+  "defaultProject": "personal-web",
+  "cli": {
+    "analytics": "915c6a22-50ed-4841-998e-5703281382f6"
+  }
 }
