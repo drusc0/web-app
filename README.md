@@ -29,3 +29,14 @@ This project has been deployed using firebase. Run `firebase deploy` to deploy t
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## FAQ
+### Running into some issues?
+
+#### Permissions
+A frequent problem when installing angular (you will need angular/cli) is the permissions to set the package in the /usr/local/ folder. We don't want to make this something you can only run with sudo, so we allow the current user (hopefully yourself) to write. The following command should help:
+```
+sudo chown -R $USER /usr/local/lib/node_modules
+```
+
+**Note:**: taken from this [site](https://flaviocopes.com/npm-fix-missing-write-access-error/) 
