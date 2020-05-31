@@ -40,3 +40,12 @@ sudo chown -R $USER /usr/local/lib/node_modules
 ```
 
 **Note:**: taken from this [site](https://flaviocopes.com/npm-fix-missing-write-access-error/) 
+
+#### Building issues
+While running `ng build`, there was an issue with the statement `Job name "..getProjectMetadata" does not exist.
+` and this is related to the build devkit. You can check this stackoverflow [ticket](https://stackoverflow.com/questions/59447679/an-unhandled-exception-occurred-job-name-getprojectmetadata-does-not-exist).
+```
+npm i @angular-devkit/build-angular
+```
+
+**Note:** the upgrade did not work for this project, so I downgraded to the version state as an alternative in the tic, `npm i @angular-devkit/build-angular@0.803.24`.
