@@ -24,6 +24,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Deploy
 
+Included in the root folder of the project is the `firebase.json` that should allow for a quick deployment. In case of some issues, you can initiate the firebase project following the tutorial in [scotch.io](https://scotch.io/tutorials/deploying-an-angular-cli-app-to-production-with-firebase). 
+
 This project has been deployed using firebase. Run `firebase deploy` to deploy the new code.
 
 ## Further help
