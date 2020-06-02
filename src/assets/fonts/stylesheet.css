@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Funhouse';
+    src: url('Funhouse.woff2') format('woff2'),
+        url('Funhouse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hi TV DEMO';
+    src: url('HiTVDEMO.woff2') format('woff2'),
+        url('HiTVDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Orange Juice';
+    src: url('OrangeJuiceRegular.woff2') format('woff2'),
+        url('OrangeJuiceRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chelsea Market';
+    src: url('ChelseaMarket-Regular.woff2') format('woff2'),
+        url('ChelseaMarket-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'orange juice';
+    src: url('orangejuice.woff2') format('woff2'),
+        url('orangejuice.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magic Dreams';
+    src: url('MagicDreams.woff2') format('woff2'),
+        url('MagicDreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

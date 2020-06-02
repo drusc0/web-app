@@ -10,3 +10,16 @@
 .img-grayscale {
     filter: grayscale(100%);
 }
+
+div > h2 {
+    font-family: 'Funhouse';
+    font-weight: normal;
+    font-style: normal;
+}
+
+div > p {
+    font-family: 'Chelsea Market';
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+}
